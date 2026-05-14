@@ -475,7 +475,7 @@ function initContactForm() {
 
       try {
         // Send to Formspree
-        const response = await fetch('https://formspree.io/f/xyzpgrba', {
+        const response = await fetch('https://formspree.io/f/mpqbgdpz', {
           method: 'POST',
           body: formData,
           headers: {

@@ -554,11 +554,11 @@ document.addEventListener('DOMContentLoaded', () => {
   const typingElement = document.querySelector('.typing-text');
   if (typingElement) {
     new TypeWriter(typingElement, [
-      'Cybersecurity Engineer',
+      'AI Security Practitioner',
+      'Application Security Engineer',
       'Cloud Security Specialist',
-      'DevSecOps Enthusiast',
-      'Threat Intelligence Analyst',
-      'Security Researcher'
+      'Cybersecurity Risk Analyst',
+      'GRC & AI Governance Researcher'
     ], 2000);
   }
 

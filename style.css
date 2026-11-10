@@ -902,6 +902,12 @@ body {
   transform: translateY(-4px);
 }
 
+/* Only show project source links where a verified repository is available. */
+.project-card:not(.featured) .project-links,
+.project-card-no-link .project-links {
+  display: none;
+}
+
 .project-card.featured {
   border-color: var(--accent-green);
 }
